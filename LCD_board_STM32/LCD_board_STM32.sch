@@ -189,25 +189,25 @@ F 3 "" H 5150 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6900 1200 0    60   BiDi ~ 0
-uC0
+uC4
 Text GLabel 7700 1250 2    60   BiDi ~ 0
-PIN0
-Text GLabel 14500 2300 0    55   BiDi ~ 0
-PIN5
-Text GLabel 14500 2200 0    55   BiDi ~ 0
 PIN4
+Text GLabel 14500 2300 0    55   BiDi ~ 0
+PIN9
+Text GLabel 14500 2200 0    55   BiDi ~ 0
+PIN8
 Text GLabel 14500 2500 0    55   BiDi ~ 0
-PIN7
+PIN11
 Text GLabel 14500 2400 0    55   BiDi ~ 0
-PIN6
+PIN10
 Text GLabel 14500 1600 0    55   BiDi ~ 0
-PIN1
+PIN5
 Text GLabel 14500 1500 0    55   BiDi ~ 0
-PIN0
+PIN4
 Text GLabel 14500 1800 0    55   BiDi ~ 0
-PIN3
+PIN7
 Text GLabel 14500 1700 0    55   BiDi ~ 0
-PIN2
+PIN6
 $Comp
 L GND #PWR03
 U 1 1 5811A134
@@ -231,21 +231,21 @@ F 3 "" H 15500 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 3450 2    55   BiDi ~ 0
-uC0
-Text GLabel 1150 2650 0    55   BiDi ~ 0
-uC1
-Text GLabel 1150 2750 0    55   BiDi ~ 0
-uC2
-Text GLabel 1150 2850 0    55   BiDi ~ 0
-uC3
-Text GLabel 1150 2950 0    55   BiDi ~ 0
 uC4
-Text GLabel 1150 3050 0    55   BiDi ~ 0
+Text GLabel 1150 2650 0    55   BiDi ~ 0
 uC5
-Text GLabel 5150 2550 2    55   BiDi ~ 0
-uC8
-Text GLabel 1150 3150 0    55   BiDi ~ 0
+Text GLabel 1150 2750 0    55   BiDi ~ 0
 uC6
+Text GLabel 1150 2850 0    55   BiDi ~ 0
+uC7
+Text GLabel 1150 2950 0    55   BiDi ~ 0
+uC8
+Text GLabel 1150 3050 0    55   BiDi ~ 0
+uC9
+Text GLabel 5150 2550 2    55   BiDi ~ 0
+uC0
+Text GLabel 1150 3150 0    55   BiDi ~ 0
+uC10
 $Comp
 L R R4
 U 1 1 5811AD40
@@ -302,9 +302,9 @@ F 3 "" H 8850 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8300 1200 0    60   BiDi ~ 0
-uC1
+uC5
 Text GLabel 9100 1250 2    60   BiDi ~ 0
-PIN1
+PIN5
 $Comp
 L R R6
 U 1 1 5811B3E1
@@ -361,9 +361,9 @@ F 3 "" H 10250 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9700 1200 0    60   BiDi ~ 0
-uC2
+uC6
 Text GLabel 10500 1250 2    60   BiDi ~ 0
-PIN2
+PIN6
 $Comp
 L R R10
 U 1 1 5811B69F
@@ -420,9 +420,9 @@ F 3 "" H 11750 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11200 1300 0    60   BiDi ~ 0
-uC3
+uC7
 Text GLabel 12000 1350 2    60   BiDi ~ 0
-PIN3
+PIN7
 $Comp
 L R R11
 U 1 1 5811B6C7
@@ -479,9 +479,9 @@ F 3 "" H 7450 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6900 2400 0    60   BiDi ~ 0
-uC4
+uC8
 Text GLabel 7400 8800 2    60   BiDi ~ 0
-PIN4
+PIN8
 $Comp
 L R R12
 U 1 1 5811B6EF
@@ -538,9 +538,9 @@ F 3 "" H 8850 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8300 2400 0    60   BiDi ~ 0
-uC5
+uC9
 Text GLabel 7400 9000 2    60   BiDi ~ 0
-PIN5
+PIN9
 $Comp
 L R R15
 U 1 1 5811B821
@@ -597,9 +597,9 @@ F 3 "" H 10350 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9800 2400 0    60   BiDi ~ 0
-uC6
+uC10
 Text GLabel 9250 8800 2    60   BiDi ~ 0
-PIN6
+PIN10
 $Comp
 L R R16
 U 1 1 5811B849
@@ -656,9 +656,9 @@ F 3 "" H 11750 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11200 2400 0    60   BiDi ~ 0
-uC7
+uC11
 Text GLabel 9250 9000 2    60   BiDi ~ 0
-PIN7
+PIN11
 $Comp
 L R R17
 U 1 1 581220AC
@@ -880,9 +880,9 @@ F 3 "" H 6900 9350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8250 8800 0    60   BiDi ~ 0
-uC6
+uC10
 Text GLabel 6400 8800 0    60   BiDi ~ 0
-uC4
+uC8
 $Comp
 L GND #PWR029
 U 1 1 58131E41
@@ -1043,13 +1043,13 @@ SWO/SCK
 Text GLabel 1700 5350 0    57   Input ~ 0
 RST
 Text GLabel 9100 2450 2    55   BiDi ~ 0
-PIN5
+PIN9
 Text GLabel 7700 2450 2    55   BiDi ~ 0
-PIN4
+PIN8
 Text GLabel 12000 2450 2    55   BiDi ~ 0
-PIN7
+PIN11
 Text GLabel 10600 2450 2    55   BiDi ~ 0
-PIN6
+PIN10
 $Comp
 L R R29
 U 1 1 581E5C14
@@ -1106,7 +1106,7 @@ F 3 "" H 7450 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6900 3600 0    60   BiDi ~ 0
-uC8
+uC0
 $Comp
 L R R30
 U 1 1 581E5C3B
@@ -1163,7 +1163,7 @@ F 3 "" H 8850 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8300 3600 0    60   BiDi ~ 0
-uC9
+uC1
 $Comp
 L R R31
 U 1 1 581E5C62
@@ -1220,7 +1220,7 @@ F 3 "" H 10350 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9800 3600 0    60   BiDi ~ 0
-uC10
+uC2
 $Comp
 L R R32
 U 1 1 581E5C89
@@ -1277,7 +1277,7 @@ F 3 "" H 11750 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11200 3600 0    60   BiDi ~ 0
-uC11
+uC3
 $Comp
 L R R35
 U 1 1 581E5CB0
@@ -1367,21 +1367,21 @@ F 3 "" H 8400 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9100 3650 2    55   BiDi ~ 0
-PIN9
+PIN1
 Text GLabel 7700 3650 2    55   BiDi ~ 0
-PIN8
+PIN0
 Text GLabel 12000 3650 2    55   BiDi ~ 0
-PIN11
+PIN3
 Text GLabel 10600 3650 2    55   BiDi ~ 0
-PIN10
+PIN2
 Text GLabel 14500 2900 0    55   BiDi ~ 0
-PIN8
+PIN0
 Text GLabel 14500 3000 0    55   BiDi ~ 0
-PIN9
+PIN1
 Text GLabel 14500 3100 0    55   BiDi ~ 0
-PIN10
+PIN2
 Text GLabel 14500 3200 0    55   BiDi ~ 0
-PIN11
+PIN3
 $Comp
 L GND #PWR050
 U 1 1 581E7754
@@ -2304,9 +2304,9 @@ F 3 "" H 7050 4700 57  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6650 5200 0    60   BiDi ~ 0
-uC8
+uC0
 Text GLabel 7550 4700 2    55   BiDi ~ 0
-PIN8
+PIN0
 NoConn ~ 6750 4900
 Wire Wire Line
 	7350 4800 7450 4800
@@ -2493,17 +2493,17 @@ Wire Wire Line
 Wire Wire Line
 	11650 4700 11650 4600
 Text GLabel 8400 5200 0    60   BiDi ~ 0
-uC9
+uC1
 Text GLabel 9300 4700 2    55   BiDi ~ 0
-PIN9
+PIN1
 Text GLabel 9900 5200 0    60   BiDi ~ 0
-uC10
+uC2
 Text GLabel 10800 4700 2    55   BiDi ~ 0
-PIN10
+PIN2
 Text GLabel 11650 5200 0    60   BiDi ~ 0
-uC11
+uC3
 Text GLabel 12550 4700 2    55   BiDi ~ 0
-PIN11
+PIN3
 $Comp
 L C C19
 U 1 1 5820E4CB
@@ -2891,15 +2891,15 @@ Wire Wire Line
 Wire Wire Line
 	1150 3250 1350 3250
 Text GLabel 1150 3250 0    55   BiDi ~ 0
-uC7
+uC11
 Text GLabel 5150 2650 2    55   BiDi ~ 0
-uC9
+uC1
 Wire Wire Line
 	5150 2650 4650 2650
 Text GLabel 5150 3550 2    55   BiDi ~ 0
-uC11
+uC3
 Text GLabel 5150 3650 2    55   BiDi ~ 0
-uC12
+uC52
 Wire Wire Line
 	4650 3550 5150 3550
 Wire Wire Line
@@ -2943,7 +2943,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3750 5150 4250
 Text GLabel 5150 3350 2    55   BiDi ~ 0
-uC10
+uC2
 Wire Wire Line
 	1650 4050 1150 4050
 Wire Wire Line
